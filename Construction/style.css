@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Construction {
+  width: 26rem;
+  height: auto;
+}
+.main-para {
+  font-size: 1.25rem;
+  font-family: "Raleway";
+}
+
+.button {
+  padding: 4px 24px;
+  border: 2px solid #407bff;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #407bff;
+}
+
+/*----------Queries---------*/
+@media screen and (min-width: 0px) and (max-width: 321px) {
+  .Construction {
+    width: 15rem;
+    height: auto;
+  }
+  .main-para {
+    font-size: 1.1rem;
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 380px) {
+  .Construction {
+    width: 20rem;
+    height: auto;
+  }
+  .main-para {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .button {
+    margin-left: 4rem;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 478px) {
+  .Construction {
+    width: 20rem;
+    height: auto;
+  }
+  .main-para {
+    font-size: 1.1rem;
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 478px) and (max-width: 767px) {
+  .Construction {
+    width: 20rem;
+    height: auto;
+  }
+  .main-para {
+    font-size: 1.1rem;
+    margin-left: 5px;
+  }
+}

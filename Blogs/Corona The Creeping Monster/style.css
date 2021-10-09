@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    background-color: #fdfdfd;
+    font-size: 1.25rem;
+    font-family: "Syne";
+    font-weight: 400;
+    scroll-behavior: smooth;
+  }
+
+
+  /*----------------------------*/
+/*----------HEADINGS----------*/
+/*----------------------------*/
+h1{
+    position: relative;
+    float: left;
+    left: 40%;
+    transform: translate(-40%,0%);
+    top: 1.5rem;
+    font-family: 'Marcellus';
+    color: #053550;
+}
+h2 {
+  font-size: 2.7rem;
+  font-family: "Syne";
+  font-weight: 800;
+  color: #053550;
+  text-transform: uppercase;
+}
+
+h3{
+    position: relative;
+    font-size: 1.8rem;
+    font-family: 'Poppins';
+
+}
+
+/*----------------------------*/
+/*----------HEADER------------*/
+/*----------------------------*/
+header {
+  height:5rem;
+  width: 100vw;
+  background-color: #a2d5f2;
+  color: #070707;
+  background-attachment: fixed;
+}
+
+/*----------NAVIGATION-----------*/
+
+.main-nav {
+    position: relative;
+    float: right;
+    right: 2rem;
+    top: 1.5rem;
+  }
+  
+  .main-nav li {
+    list-style: none;
+    display: inline-block;
+
+  }
+  
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #070707;
+    font-family: "Syne";
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  .main-nav li a:hover,
+  .main-nav li a:active{
+    border-bottom: 2px solid #000;
+  }
+/*---------STICKY NAV---------*/
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #a2d5f2;
+  z-index: 1;
+
+}
+/*----------Burger-icons------*/
+
+.menu-icon{
+  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 1.6rem;
+  font-size: 1.5rem;
+  color: #053550;
+  z-index: 3;
+
+}
+.disappear{
+  display: none;
+}
+/*-------MOBILE NAV-----*/
+@keyframes drawer{
+  from{
+    transform: translateX(50%);
+  }
+  to{
+    transform:translateX(0%);
+  }
+}
+@keyframes backDrawer{
+  from{
+    transform: translateX(0%);
+  }
+  to{
+    transform:translateX(-50%);
+  }
+
+}
+
+.mobile-nav{
+  position: absolute;
+  right: 0;
+  width: 70%;
+  height: 50vh;
+  background-color:  #a2d5f2;
+  box-shadow: -1px 5px 5px rgb(214, 214, 214);
+  z-index: 2;
+}
+.mobile-nav li{
+  display: list-item;
+  list-style: none;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.mobile-nav li:first-of-type{
+  margin-top: 6rem;
+}
+.mobile-nav li a:link,
+.mobile-nav li a:visited {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #070707;
+  font-family: "Syne";
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+ /*----------------------------*/
+/*----------SECTION----------*/
+/*----------------------------*/
+.blog{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+
+}
+
+
+.side-section{
+    width: 25%;
+    height: 200vh;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/*---------------------------*/
+/*------BLOG------------------*/
+/*----------------------------*/
+.content{
+  width: 60%;
+  height: 350vh;
+  background-color: #fdfdfd;
+}
+.title-picture{
+  position: relative;
+  left: 20%;
+  height: auto;
+  width: 60%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.content h2{
+  font-size: 2.5rem;
+}
+.content p{
+  word-spacing: 2px;
+  line-height: 145%;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+/*--------PROFILE-CARD--------*/
+.profile-card{
+    position: relative;
+    top: 1rem;
+    width: 80%;
+    height: 25%;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.197);
+}
+
+
+.profile-card h3{
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #053550;
+  text-decoration: underline;
+  text-decoration-color:  #053550;
+
+}
+
+
+.profile-pic{
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius:50%;
+    left: 30%;
+    top: 5%;
+}
+
+.author-details{
+  position: relative;
+  height: 3rem;
+  left: 25%;
+  top: 1rem;
+
+}
+.author-details h4{
+  font-size: 1.25rem;
+  font-family: 'Raleway';
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.author-details p{
+  position: relative;
+  right: 0;
+  max-width: 8rem;
+  font-size: 0.8rem;
+  font-family: 'Raleway';
+  font-weight: 400;
+  text-align: center;
+}
+.social-icons{
+  position: absolute;
+  width: 2rem;
+  height:5rem;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px 0 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#a2d5f2;
+}
+.social-icons a:link,
+.social-icons a:visited{
+  text-decoration: none;
+  transition: 0.2s;
+  color: #053550;
+}
+.social-icons a:hover,
+.social-icons a:active{
+  color:#C13584;
+}
+
+/*-------------RELATED BLOG------------------*/
+.other-blogs{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 5%;
+  width: 90%;
+  height: 150vh;
+  text-align: center;
+}
+
+.other-blogs h4{
+  font-size: 1.25rem;
+  font-family: 'Poppins';
+  font-weight: 400;
+
+}
+
+.related-blog{
+  height: 35%;
+  width: 90%;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.163);
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  text-overflow: ellipsis;
+
+}
+.related-blog:hover{
+  cursor: pointer;
+  background-color: rgba(247, 245, 245, 0.836);
+
+}
+.related-blog h4{
+  font-weight: 500;
+  color: #053550;
+}
+.related-blog p{
+  max-width: 13rem;
+  text-align: start;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  text-overflow: ellipsis;
+}
+
+/*----------------------------*/
+/*---------FOOTER------------*/
+/*----------------------------*/
+
+footer{
+  height:10rem;
+  width: 100vw;
+  background-color: #40a8c4;
+}
+
+/*--------CopyRight---------*/
+.copyright{
+  position: relative;
+  top: 35%;
+  text-align: center;
+  font-size: 1.1rem;
+
+}
+/*----------Credit-------------*/
+.credits{
+  position: relative;
+  top: 60%;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: 'Raleway';
+}
+
+.credit-link{
+  text-decoration: underline;
+  color: #000;
+  font-weight: 600;
+}
+
+

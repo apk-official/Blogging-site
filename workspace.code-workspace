@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"name": "",
+		"uri": "lottie:/?undefined"
+	}
+],
+  "settings": {
+    "workbench.colorTheme": "Brackets Dark",
+    "liveServer.settings.multiRootWorkspaceName": "Copy Paste"
+  }
+}

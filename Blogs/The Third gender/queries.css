@@ -1,0 +1,1103 @@
+@media screen and (min-width:0px) and (max-width:321px){
+    h1{
+        position: relative;
+        left: 20%;
+        transform: translate(-35%,0);
+        font-size: 1.6rem;
+    }
+   
+   
+    .blog{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       
+   }
+   .side-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:150vh;
+       width:100vw;
+
+    
+   }
+
+   /*-----Profile Card-------*/
+   .profile-card{
+       position: relative;
+       top: -1rem;
+       height: 30%;
+       display: flex;
+       box-shadow: none;
+       border-top: 1px solid #000;
+       flex-direction: row;
+       border-radius: 0;
+   }
+   .profile-card h3{
+       display: none;
+   }
+   .profile-pic{
+       position: relative;
+       width: 4rem;
+       height: 4rem;
+       top: 1rem;
+       left: 0.5rem;
+   }
+   .author-details{
+       position: relative;
+       left:5%;
+   }
+   .author-details h4{
+       font-size: 1rem;
+       margin-left: 1rem;
+
+   }
+   .author-details p{
+       position: relative;
+       right: 0;
+       max-width: 8rem;
+       
+   }
+   .other-blogs{
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height:100%;
+       width: 90%;
+       top:0.1rem;
+
+
+   }
+   .other-blogs h4{
+       font-size: 1rem;
+   }
+   .related-blog{
+       height: 75%;
+       width: 90%;
+   }
+   .social-icons{
+       width: 2rem;
+       height: 2rem;
+   }
+/*-----MAIN NAVIGATION------*/
+.main-nav{
+    display:none;
+}
+.menu-icon{
+    display: block;
+}
+/*---------Footer-----*/
+.copyright{
+    font-size: 0.8rem;
+}
+.credits{
+    top: 50%;
+    left: 20%;
+    max-width: 10rem;
+    font-size: 0.6rem;
+}
+/*-----BLOG--------*/
+.content{
+    position: relative;
+    left: 25%;
+    height: 500vh;
+    margin-bottom: 5rem;
+}
+.content p{
+    font-size: 0.9rem;
+}
+.content h2{
+    font-size: 1.2rem;
+}
+.title-picture{
+    width: 100%;
+    left: 0;
+}
+}
+/*-----SPECIAL MOBILE------------*/
+@media screen and (min-width:321px) and (max-width:337px){
+    h1{
+        position: relative;
+        left: 20%;
+        transform: translate(-35%,0);
+        font-size: 1.6rem;
+    }
+   
+   
+    .blog{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       
+   }
+   .side-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:150vh;
+       width:100vw;
+
+    
+   }
+
+   /*-----Profile Card-------*/
+   .profile-card{
+       position: relative;
+       top: -1rem;
+       height: 15%;
+       display: flex;
+       box-shadow: none;
+       border-top: 1px solid #000;
+       flex-direction: row;
+       border-radius: 0;
+   }
+   .profile-card h3{
+       display: none;
+   }
+   .profile-pic{
+       position: relative;
+       width: 4rem;
+       height: 4rem;
+       top: 1rem;
+       left: 0.5rem;
+   }
+   .author-details{
+       position: relative;
+       left:5%;
+   }
+   .author-details h4{
+       font-size: 1rem;
+       margin-left: 1rem;
+
+   }
+   .author-details p{
+       position: relative;
+       right: 0;
+       max-width: 8rem;
+       
+   }
+   .other-blogs{
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height:90%;
+       width: 90%;
+       top:0.1rem;
+
+
+   }
+   .other-blogs h4{
+       font-size: 1rem;
+   }
+   .related-blog{
+       height: 75%;
+       width: 90%;
+   }
+   .social-icons{
+       width: 2rem;
+       height: 2rem;
+   }
+/*-----MAIN NAVIGATION------*/
+.main-nav{
+    display:none;
+}
+.menu-icon{
+    display: block;
+}
+/*---------Footer-----*/
+.copyright{
+    font-size: 0.8rem;
+}
+.credits{
+    top: 50%;
+    left: 20%;
+    max-width: 10rem;
+    font-size: 0.6rem;
+}
+/*-----BLOG--------*/
+.content{
+    position: relative;
+    left: 25%;
+    height: 450vh;
+    margin-bottom: 5rem;
+    width: 65%;
+}
+.content p{
+    font-size: 0.9rem;
+}
+.content h2{
+    font-size: 1.2rem;
+}
+.title-picture{
+    width: 100%;
+    left: 0;
+}
+}
+/*-----SPECIAL MOBILE--2----------*/
+@media screen and (min-width:337px) and (max-width:365px){
+    h1{
+        position: relative;
+        left: 20%;
+        transform: translate(-35%,0);
+        font-size: 1.6rem;
+    }
+   
+   
+    .blog{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       
+   }
+   .side-section{
+       position: relative;
+       bottom: 0;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:150vh;
+       width:100vw;
+       margin-bottom: 6.5rem;
+
+    
+   }
+
+   /*-----Profile Card-------*/
+   .profile-card{
+       position: relative;
+       top: -1rem;
+       height: 8rem;
+       display: flex;
+       box-shadow: none;
+       border-top: 1px solid #000;
+       flex-direction: row;
+       border-radius: 0;
+       margin-bottom: 2rem;
+   }
+   .profile-card h3{
+       display: none;
+   }
+   .profile-pic{
+       position: relative;
+       width: 4rem;
+       height: 4rem;
+       top: 1rem;
+       left: 0.5rem;
+   }
+   .author-details{
+       position: relative;
+       left:5%;
+   }
+   .author-details h4{
+       font-size: 1rem;
+       margin-left: 1rem;
+
+   }
+   .author-details p{
+       position: relative;
+       right: 0;
+       max-width: 8rem;
+       font-size: 0.78rem;
+       
+   }
+   .other-blogs{
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height:90%;
+       width: 90%;
+       top:0.1rem;
+
+
+   }
+   .other-blogs h4{
+       font-size: 1rem;
+   }
+   .related-blog{
+       height: 75%;
+       width: 90%;
+   }
+   .social-icons{
+       width: 2rem;
+       height: 2rem;
+       display: none;
+   }
+/*-----MAIN NAVIGATION------*/
+.main-nav{
+    display:none;
+}
+.menu-icon{
+    display: block;
+}
+/*---------Footer-----*/
+.copyright{
+    font-size: 0.8rem;
+}
+.credits{
+    top: 50%;
+    left: 20%;
+    max-width: 10rem;
+    font-size: 0.6rem;
+}
+/*-----BLOG--------*/
+.content{
+    position: relative;
+    left: 25%;
+    height:250vh;
+    width: 47%;
+    margin-bottom: 0;
+}
+.content p{
+    font-size: 0.9rem;
+}
+.content h2{
+    font-size: 1.2rem;
+}
+.title-picture{
+    width: 100%;
+    left: 0;
+}
+}
+
+
+
+/*-----SPECIAL MOBILE---4---------*/
+@media screen and (min-width:365px) and (max-width:375px){
+    h1{
+        position: relative;
+        left: 20%;
+        transform: translate(-35%,0);
+        font-size: 1.6rem;
+    }
+   
+   
+    .blog{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       
+   }
+   .side-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:180vh;
+       width:100vw;
+       margin-bottom: 1rem;
+
+    
+   }
+
+   /*-----Profile Card-------*/
+   .profile-card{
+       position: relative;
+       top: -1rem;
+       height: 10%;
+       display: flex;
+       box-shadow: none;
+       border-top: 1px solid #000;
+       flex-direction: row;
+       border-radius: 0;
+   }
+   .profile-card h3{
+       display: none;
+   }
+   .profile-pic{
+       position: relative;
+       width: 4rem;
+       height: 4rem;
+       top: 1rem;
+       left: 0.5rem;
+   }
+   .author-details{
+       position: relative;
+       left:5%;
+   }
+   .author-details h4{
+       font-size: 1rem;
+       margin-left: 1rem;
+
+   }
+   .author-details p{
+       position: relative;
+       right: 0;
+       max-width: 8rem;
+       
+   }
+   .other-blogs{
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height:90%;
+       width: 90%;
+       top:0.1rem;
+
+
+   }
+   .other-blogs h4{
+       font-size: 1rem;
+   }
+   .related-blog{
+       height: 55%;
+       width: 90%;
+   }
+   .social-icons{
+       width: 2rem;
+       height: 2rem;
+   }
+/*-----MAIN NAVIGATION------*/
+.main-nav{
+    display:none;
+}
+.menu-icon{
+    display: block;
+}
+/*---------Footer-----*/
+.copyright{
+    font-size: 0.8rem;
+}
+.credits{
+    top: 50%;
+    left: 20%;
+    max-width: 10rem;
+    font-size: 0.6rem;
+}
+/*-----BLOG--------*/
+.content{
+    position: relative;
+    left: 25%;
+    height:380vh;
+    margin-bottom: 5rem;
+    width: 70%;
+}
+.content p{
+    font-size: 0.9rem;
+}
+.content h2{
+    font-size: 1.2rem;
+}
+.title-picture{
+    width: 100%;
+    left: 0;
+}
+}
+
+/*-----SPECIAL MOBILE---5---------*/
+@media screen and (min-width:375px) and (max-width:405px){
+    h1{
+        position: relative;
+        left: 20%;
+        transform: translate(-35%,0);
+        font-size: 1.6rem;
+    }
+   
+   
+    .blog{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       
+   }
+   .side-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:180vh;
+       width:100vw;
+       margin-bottom: 1rem;
+
+    
+   }
+
+   /*-----Profile Card-------*/
+   .profile-card{
+       position: relative;
+       top: -1rem;
+       height: 10%;
+       display: flex;
+       box-shadow: none;
+       border-top: 1px solid #000;
+       flex-direction: row;
+       border-radius: 0;
+   }
+   .profile-card h3{
+       display: none;
+   }
+   .profile-pic{
+       position: relative;
+       width: 4rem;
+       height: 4rem;
+       top: 1rem;
+       left: 0.5rem;
+   }
+   .author-details{
+       position: relative;
+       left:5%;
+   }
+   .author-details h4{
+       font-size: 1rem;
+       margin-left: 1rem;
+
+   }
+   .author-details p{
+       position: relative;
+       right: 0;
+       max-width: 8rem;
+       
+   }
+   .other-blogs{
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height:90%;
+       width: 90%;
+       top:0.1rem;
+
+
+   }
+   .other-blogs h4{
+       font-size: 1rem;
+   }
+   .related-blog{
+       height: 55%;
+       width: 90%;
+   }
+   .social-icons{
+       width: 2rem;
+       height: 2rem;
+   }
+/*-----MAIN NAVIGATION------*/
+.main-nav{
+    display:none;
+}
+.menu-icon{
+    display: block;
+}
+/*---------Footer-----*/
+.copyright{
+    font-size: 0.8rem;
+}
+.credits{
+    top: 50%;
+    left: 20%;
+    max-width: 10rem;
+    font-size: 0.6rem;
+}
+/*-----BLOG--------*/
+.content{
+    position: relative;
+    left: 25%;
+    height: 410vh;
+    margin-bottom: 5rem;
+    width: 65%;
+}
+.content p{
+    font-size: 0.9rem;
+}
+.content h2{
+    font-size: 1.2rem;
+}
+.title-picture{
+    width: 100%;
+    left: 0;
+}
+}
+
+
+
+/*-----SMALL MOBILE DEVICES--------*/
+
+@media screen and (min-width:404px) and (max-width:478px){
+    h1{
+        position: relative;
+        left: 20%;
+        transform: translate(-35%,0);
+        font-size: 1.6rem;
+    }
+   
+   
+    .blog{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       
+   }
+   .side-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:100vh;
+       width:100vw;
+
+    
+   }
+
+   /*-----Profile Card-------*/
+   .profile-card{
+       position: relative;
+       top: -1rem;
+       height: 30%;
+       display: flex;
+       box-shadow: none;
+       border-top: 1px solid #000;
+       flex-direction: row;
+       border-radius: 0;
+   }
+   .profile-card h3{
+       display: none;
+   }
+   .profile-pic{
+       position: relative;
+       width: 4rem;
+       height: 4rem;
+       top: 1rem;
+       left: 0.5rem;
+   }
+   .author-details{
+       position: relative;
+       left:5%;
+   }
+   .author-details h4{
+       font-size: 1rem;
+       margin-left: 1rem;
+
+   }
+   .author-details p{
+       position: relative;
+       right: 0;
+       max-width: 8rem;
+       
+   }
+   .other-blogs{
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height:100%;
+       width: 90%;
+       top:0.1rem;
+
+
+   }
+   .other-blogs h4{
+       font-size: 1rem;
+   }
+   .related-blog{
+       height: 75%;
+       width: 90%;
+   }
+   .social-icons{
+       width: 2rem;
+       height: 2rem;
+   }
+/*-----MAIN NAVIGATION------*/
+.main-nav{
+    display:none;
+}
+.menu-icon{
+    display: block;
+}
+/*---------Footer-----*/
+.copyright{
+    font-size: 0.8rem;
+}
+.credits{
+    top: 50%;
+    left: 20%;
+    max-width: 10rem;
+    font-size: 0.6rem;
+}
+  /*-----BLOG--------*/
+  .content{
+    position: relative;
+    left: 25%;
+    height: 470vh;
+    margin-bottom: 5rem;
+}
+.content p{
+    font-size: 1rem;
+}
+.content h2{
+    font-size: 1.7rem;
+}
+.title-picture{
+    width: 100%;
+    left: 0;
+}
+
+}
+@media screen and (min-width:340px) and (max-width:364px){
+    h1{
+        position: relative;
+        left: 20%;
+        transform: translate(-35%,0);
+        font-size: 1.6rem;
+    }
+   
+   
+    .blog{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       
+   }
+   .side-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:100vh;
+       width:100vw;
+
+    
+   }
+
+   /*-----Profile Card-------*/
+   .profile-card{
+       position: relative;
+       top: -1rem;
+       height: 30%;
+       display: flex;
+       box-shadow: none;
+       border-top: 1px solid #000;
+       flex-direction: row;
+       border-radius: 0;
+   }
+   .profile-card h3{
+       display: none;
+   }
+   .profile-pic{
+       position: relative;
+       width: 4rem;
+       height: 4rem;
+       top: 1rem;
+       left: 0.5rem;
+   }
+   .author-details{
+       position: relative;
+       left:5%;
+   }
+   .author-details h4{
+       font-size: 1rem;
+       margin-left: 1rem;
+
+   }
+   .author-details p{
+       position: relative;
+       right: 0;
+       max-width: 8rem;
+       
+   }
+   .other-blogs{
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height:100%;
+       width: 90%;
+       top:0.1rem;
+
+
+   }
+   .other-blogs h4{
+       font-size: 1rem;
+   }
+   .related-blog{
+       height: 75%;
+       width: 90%;
+   }
+   .social-icons{
+       width: 2rem;
+       height: 2rem;
+   }
+/*-----MAIN NAVIGATION------*/
+.main-nav{
+    display:none;
+}
+.menu-icon{
+    display: block;
+}
+/*---------Footer-----*/
+.copyright{
+    font-size: 0.8rem;
+}
+.credits{
+    top: 50%;
+    left: 20%;
+    max-width: 10rem;
+    font-size: 0.6rem;
+}
+  /*-----BLOG--------*/
+  .content{
+    position: relative;
+    left: 25%;
+    height: 710vh;
+    margin-bottom: 5rem;
+}
+.content p{
+    font-size: 1rem;
+}
+.content h2{
+    font-size: 1.7rem;
+}
+.title-picture{
+    width: 100%;
+    left: 0;
+}
+
+}
+
+/*-----NORMAL MOBILE DEVICES--------*/
+
+@media screen and (min-width:478px) and (max-width:767px){
+    h1{
+        position: relative;
+        left: 20%;
+        transform: translate(-35%,0);
+        font-size: 1.8rem;
+    }
+   
+   
+    .blog{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       
+   }
+   .side-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:100vh;
+       width:100vw;
+
+    
+   }
+
+   /*-----Profile Card-------*/
+   .profile-card{
+       position: relative;
+       top: -1rem;
+       height: 30%;
+       display: flex;
+       box-shadow: none;
+       border-top: 1px solid #000;
+       flex-direction: row;
+       border-radius: 0;
+   }
+   .profile-card h3{
+       display: none;
+   }
+   .profile-pic{
+       position: relative;
+       width: 4rem;
+       height: 4rem;
+       top: 1rem;
+       left: 0.5rem;
+   }
+   .author-details{
+       position: relative;
+       left:5%;
+   }
+   .author-details h4{
+       font-size: 1rem;
+       margin-left: 1rem;
+
+   }
+   .author-details p{
+       position: relative;
+       right: 0;
+       max-width: 8rem;
+       
+   }
+   .other-blogs{
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height:100%;
+       width: 90%;
+       top:0.1rem;
+
+
+   }
+   .other-blogs h4{
+       font-size: 1rem;
+   }
+   .related-blog{
+       height: 75%;
+       width: 90%;
+   }
+   .social-icons{
+       width: 2rem;
+       height: 2rem;
+   }
+/*-----MAIN NAVIGATION------*/
+.main-nav{
+    display:none;
+}
+.menu-icon{
+    display: block;
+    font-size: 1.8rem;
+}
+.mobile-nav{
+    width: 50%;
+}
+/*---------Footer-----*/
+.copyright{
+    font-size: 0.9rem;
+}
+.credits{
+    top: 50%;
+    font-size: 0.7rem;
+}
+  /*-----BLOG--------*/
+  .content{
+    position: relative;
+    left: 25%;
+    height: 540vh;
+    margin-bottom: 5rem;
+}
+.content p{
+    font-size: 1rem;
+}
+.content h2{
+    font-size: 2rem;
+}
+.title-picture{
+    width: 100%;
+    left: 0;
+}
+
+
+}
+/*-----TABLETS MOBILE DEVICES--------*/
+
+@media screen and (min-width:767px) and (max-width:1024px){
+    .blog{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
+    .side-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:100vh;
+        width:100vw;
+ 
+     
+    }
+    /*-----BLOG--------*/
+    .content{
+        position: relative;
+        left: 25%;
+        height: 520vh;
+    }
+ 
+    /*-----Profile Card-------*/
+    .profile-card{
+        position: relative;
+        top: -1rem;
+        height: 30%;
+        display: flex;
+        box-shadow: none;
+        border-top: 1px solid #000;
+        flex-direction: row;
+        border-radius: 0;
+    }
+    .profile-card h3{
+        display: none;
+    }
+    .profile-pic{
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        top: 1rem;
+        left: 0.5rem;
+    }
+    .author-details{
+        position: relative;
+        left:5%;
+    }
+    .author-details h4{
+        font-size: 1rem;
+        margin-left: 1rem;
+ 
+    }
+    .author-details p{
+        position: relative;
+        right: 0;
+        max-width: 8rem;
+        
+    }
+    .other-blogs{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        height:100%;
+        width: 90%;
+        top:0.1rem;
+ 
+ 
+    }
+    .other-blogs h4{
+        font-size: 1.2rem;
+    }
+    .related-blog{
+        height: 75%;
+        width: 90%;
+    }
+    .social-icons{
+        width: 2rem;
+        height: 2rem;
+        left: 0;
+    }
+
+}
+/*-----BIG SCREENS DEVICES--------*/
+
+@media screen and (min-width:1024px) and (max-width:1295px){
+    .author-details p{
+        max-width: 10rem;
+        right: 15%;
+        font-size: 0.7rem;
+      }
+      .author-details h4{
+          position: relative;
+          right:10%;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+      .social-icons{
+        width: 2rem;
+        height: 3rem;
+    }
+    .content{
+        height: 300vh;
+    }
+
+}
+@media screen and (min-width:1295px){
+    .content{
+        height: 300vh;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
